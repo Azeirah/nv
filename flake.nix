@@ -1,35 +1,36 @@
 {
   description = "nv - A batteries-included nixvim distribution for nix development, inspired by kickstart.nvim";
 
-  #  ::::    ::::::     :::
-  #  :+:+:   :+::+:     :+:
-  #  :+:+:+  +:++:+     +:+
-  #  +#+ +:+ +#++#+     +:+
-  #  +#+  +#+#+# +#+   +#+
-  #  #+#   #+#+#  #+#+#+#
-  #  ###    ####    ### 
-  #
-  #  What is nv?
-  #
-  #    nv (pronounced "envy") is *not* a distribution.
-  #    
-  #    nv is a starting point for your own Nix development environment using nixvim.
-  #    The goal is that you can read every line of code, top-to-bottom, understand
-  #    what your configuration is doing, and modify it to suit your needs.
-  #
-  #    Once you've done that, you can start exploring, configuring and tinkering to
-  #    make your nv editor your own!
-  #
-  #  Getting Started:
-  #    1. Visit https://github.com/Azeirah/nv
-  #    2. Fork the repository (or use it as a template)
-  #    3. Clone your fork locally using:
-  #         git clone https://github.com/username/nv
-  #    4. `cd` into the repository
-  #    5. Start it up with: nix run .#
-  #    
-  #    If you don't want to fork, you can also run it directly:
-  #      nix run github:Azeirah/nv#
+  /*
+      ███╗   ██╗██╗   ██╗
+      ████╗  ██║██║   ██║
+      ██╔██╗ ██║██║   ██║
+      ██║╚██╗██║╚██╗ ██╔╝
+      ██║ ╚████║ ╚████╔╝
+      ╚═╝  ╚═══╝  ╚═══╝
+
+     What is nv?
+
+       nv (pronounced "envy") is *not* a distribution.
+
+       nv is a starting point for your own Nix development environment using nixvim.
+       The goal is that you can read every line of code, top-to-bottom, understand
+       what your configuration is doing, and modify it to suit your needs.
+
+       Once you've done that, you can start exploring, configuring and tinkering to
+       make your nv editor your own!
+
+     Getting Started:
+       1. Visit https://github.com/Azeirah/nv
+       2. Fork the repository (or use it as a template)
+       3. Clone your fork locally using:
+            git clone https://github.com/username/nv
+       4. `cd` into the repository
+       5. Start it up with: `nix run`
+
+       If you don't want to fork, you can also run it directly from GitHub:
+         `nix run github:Azeirah/nv`
+  */
 
   # Input declarations - these are dependencies of our configuration.
   inputs = {
